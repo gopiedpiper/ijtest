@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh 'deploy_jar.sh'
+                sh '../deploy_jar.sh'
             }
         }
     }
