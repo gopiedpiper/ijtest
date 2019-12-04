@@ -13,6 +13,6 @@ public class HelloService {
     public String hello() {
         LocalDateTime time = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
-        return  "Hello: " + time.format(formatter);
+        return  "Hello2: " + time.format(formatter);
     }
 }
